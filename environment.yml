@@ -1,0 +1,10 @@
+# Conda environment that provides Python 3.12 for the CLEAR simulation code.
+#   conda env create -f environment.yml
+#   conda activate clear-sim
+#   pip install -r requirements-lock.txt
+name: clear-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip

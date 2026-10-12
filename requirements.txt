@@ -1,0 +1,13 @@
+# Pinned to the toolchain that produced the committed figures and numbers.
+#
+# Needs Python 3.12 or later (NumPy 2.5 and SciPy 1.18 support Python 3.12 to
+# 3.14). These pins were verified on Python 3.12.11: the figures
+# reproduce pixel-for-pixel and every number reproduces to floating point.
+#
+# The quoted numbers are independent of the NumPy/SciPy versions (the arithmetic
+# is deterministic and the random seeds are fixed), so slightly different patch
+# versions of NumPy/SciPy are fine; Matplotlib is the one that matters for
+# pixel-identical figures.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.10.9

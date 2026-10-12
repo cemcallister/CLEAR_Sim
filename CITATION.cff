@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and the software."
+title: "CLEAR: simulation code for an integrative control-theoretic model of ADHD"
+version: 1.0.0
+date-released: "2026-10-12"
+repository-code: "https://github.com/cemcallister/CLEAR_Sim"
+license: MIT
+authors:
+  - family-names: "McAllister"
+    given-names: "Craig E."
+    orcid: "https://orcid.org/0009-0005-3498-9640"
+preferred-citation:
+  type: article
+  title: "Extending Our Understanding of the Dynamic, State- and Context-Dependent Nature of ADHD: An Integrative Control-Theoretic Model"
+  authors:
+    - family-names: "McAllister"
+      given-names: "Craig E."
+      orcid: "https://orcid.org/0009-0005-3498-9640"
+    - family-names: "Sonuga-Barke"
+      given-names: "Edmund J. S."
+      orcid: "https://orcid.org/0000-0002-6996-3935"
+  year: 2026
+  status: submitted
